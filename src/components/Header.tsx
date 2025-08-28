@@ -14,6 +14,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection, onNavClick }) => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -33,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection, onNavClick }) => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-            Portfolio
+            Mohamad Fakhrullah
           </div>
           
           {/* Desktop Navigation */}
