@@ -4,50 +4,42 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      title: "myIASME.com System",
+      description: "A comprehensive product management system with key features like product reporting, adding/editing products, dashboards with calculations (profit, sales margin, ROI, stock), winning DNA insights, and product proposals. Built during internship at IASME GROUP.",
+      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      liveUrl: "https://myiasme.com",
+      githubUrl: "https://github.com"
+    },
+    {
+      title: "Examination Scheduling System",
+      description: "An Automated Examination Invigilation Timetabling System using Genetic Algorithm to automate invigilator assignment, improving efficiency and accuracy. Won Best Project Award (COMMAX) and Silver award in GDIID 2025.",
+      image: "https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["Python", "Genetic Algorithm", "Data Analysis", "Optimization"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features built with React and Socket.io.",
-      image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "TypeScript", "Socket.io", "PostgreSQL", "Redis"],
+      title: "TikTok Sentiment Analysis Web App",
+      description: "A Flask-based web application to analyze TikTok reviews' sentiment (Positive, Neutral, Negative) using a trained machine learning model with TF-IDF vectorizer and real-time sentiment predictions with confidence scores.",
+      image: "https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["Python", "Flask", "Machine Learning", "TF-IDF", "HTML", "Tailwind CSS"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com"
     },
     {
-      title: "Weather Dashboard",
-      description: "A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics. Built with modern web technologies and responsive design.",
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Vue.js", "D3.js", "OpenWeather API", "CSS Grid"],
+      title: "E-Kelas Mengaji Website",
+      description: "An online platform to facilitate Quranic learning classes, connecting students with qualified tutors. Built with responsive front-end and secure back-end with user authentication and session management.",
+      image: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com"
     },
     {
-      title: "Social Media Dashboard",
-      description: "A comprehensive social media analytics dashboard with real-time data visualization, user engagement metrics, and automated reporting features.",
-      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Next.js", "Chart.js", "Prisma", "AWS", "GraphQL"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Recipe Finder App",
-      description: "A mobile-responsive recipe application with ingredient-based search, nutritional information, and meal planning features. Integrated with multiple recipe APIs.",
-      image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React Native", "Expo", "Firebase", "Spoonacular API"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Portfolio CMS",
-      description: "A headless CMS built for portfolio websites with drag-and-drop page builder, SEO optimization, and multi-language support. Perfect for creative professionals.",
-      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Strapi", "React", "PostgreSQL", "AWS S3", "Docker"],
+      title: "E-Kenderaan System",
+      description: "Enhanced vehicle booking system with intuitive main page for viewing booking details, car status, and driver assignments. Created comprehensive video tutorial and streamlined booking workflow for LKPP Corporation.",
+      image: "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["Java", "NetBeans", "HeidiSQL", "MySQL"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com"
     }
@@ -60,7 +52,7 @@ const Projects: React.FC = () => {
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Featured Projects</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            A showcase of my recent work, featuring modern web applications built with cutting-edge technologies
+            A showcase of my academic and professional projects, featuring machine learning, full-stack development, and system optimization solutions
           </p>
         </div>
         
