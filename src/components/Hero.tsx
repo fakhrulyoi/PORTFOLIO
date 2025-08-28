@@ -12,23 +12,23 @@ const Hero: React.FC<HeroProps> = ({ onNavClick }) => {
         <div className="animate-fade-in-up">
           <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 p-1 shadow-xl">
             <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center text-4xl font-bold text-gray-600">
-              JS
+              MF
             </div>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6 leading-tight">
             <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              John Smith
+              Mohamad Fakhrullah
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Full-Stack Developer & UI/UX Designer
+            Final-Year Computer Science Student & Full-Stack Developer
           </p>
           
           <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Crafting beautiful, functional web experiences with modern technologies. 
-            Passionate about clean code, intuitive design, and solving complex problems.
+            Building innovative solutions with machine learning, full-stack development, 
+            and system optimization. Passionate about solving real-world problems through technology.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -36,7 +36,7 @@ const Hero: React.FC<HeroProps> = ({ onNavClick }) => {
               onClick={() => onNavClick('projects')}
               className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
             >
-              View My Work
+              View My Projects
             </button>
             <button
               onClick={() => onNavClick('contact')}
@@ -48,7 +48,7 @@ const Hero: React.FC<HeroProps> = ({ onNavClick }) => {
           
           <div className="flex justify-center space-x-6 mb-16">
             <a
-              href="https://github.com"
+              href="https://github.com/fakhrulyoi"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-white rounded-full shadow-md flex items-center justify-center text-gray-600 hover:text-blue-600 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
@@ -56,7 +56,7 @@ const Hero: React.FC<HeroProps> = ({ onNavClick }) => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/fakhrullah-ibrahim-830462265/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-white rounded-full shadow-md flex items-center justify-center text-gray-600 hover:text-blue-600 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
@@ -64,7 +64,7 @@ const Hero: React.FC<HeroProps> = ({ onNavClick }) => {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:john@example.com"
+              href="mailto:yoifakrul@gmail.com"
               className="w-12 h-12 bg-white rounded-full shadow-md flex items-center justify-center text-gray-600 hover:text-blue-600 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
             >
               <Mail size={20} />
