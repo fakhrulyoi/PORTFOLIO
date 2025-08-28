@@ -5,18 +5,18 @@ const About: React.FC = () => {
   const highlights = [
     {
       icon: <Code className="w-6 h-6" />,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable code with best practices"
+      title: "Full-Stack Development",
+      description: "Experienced in HTML, CSS, JavaScript, PHP, Python and MySQL databases"
     },
     {
       icon: <Palette className="w-6 h-6" />,
-      title: "Design Focus",
-      description: "Creating intuitive user interfaces with attention to detail"
+      title: "Machine Learning",
+      description: "Applied ML in sentiment analysis, image processing, and genetic algorithms"
     },
     {
       icon: <Zap className="w-6 h-6" />,
-      title: "Performance",
-      description: "Optimizing applications for speed and user experience"
+      title: "System Design",
+      description: "Built multi-user systems with role-based access and complex calculations"
     }
   ];
 
@@ -31,16 +31,17 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              I'm a passionate full-stack developer with over 5 years of experience creating 
-              digital solutions that make a difference. My journey began with a curiosity for 
-              how things work on the web, and it has evolved into a deep love for crafting 
-              exceptional user experiences.
+              I'm a final-year Computer Science student from UiTM Kuala Terengganu with strong 
+              hands-on experience in full-stack web development, backend systems, and data analysis. 
+              My journey has taken me through machine learning projects, system optimization, 
+              and building comprehensive product management platforms.
             </p>
             
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              When I'm not coding, you'll find me exploring new technologies, contributing to 
-              open-source projects, or enjoying a good book on software architecture. I believe 
-              in continuous learning and staying up-to-date with the latest industry trends.
+              From developing automated examination scheduling systems using Genetic Algorithms 
+              to creating sentiment analysis web applications, I'm passionate about solving 
+              real-world problems through innovative technology solutions. I'll be available 
+              to start my career in October 2025.
             </p>
             
             <div className="grid gap-6">
@@ -62,7 +63,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full p-2 shadow-2xl">
                 <div className="w-full h-full bg-gray-200 rounded-full flex items-center justify-center">
-                  <div className="text-6xl font-bold text-gray-600">JS</div>
+                  <div className="text-6xl font-bold text-gray-600">MF</div>
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 w-20 h-20 bg-emerald-500 rounded-full flex items-center justify-center text-white shadow-lg">
