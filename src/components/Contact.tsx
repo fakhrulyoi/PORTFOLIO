@@ -24,30 +24,30 @@ const Contact: React.FC = () => {
     });
   };
 
-  const contactInfo = [
+ const contactInfo = [
     {
       icon: <Mail className="w-5 h-5" />,
       title: "Email",
-      value: "john@example.com",
-      link: "mailto:john@example.com"
+      value: "yoifakrul@gmail.com",
+      link: "mailto:yoifakrul@gmail.com"
     },
     {
       icon: <Phone className="w-5 h-5" />,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "014-2153722",
+      link: "tel:+60142153722"
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Kuantan, Pahang, Malaysia",
       link: null
     }
   ];
 
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, url: "https://github.com", label: "GitHub" },
-    { icon: <Linkedin className="w-5 h-5" />, url: "https://linkedin.com", label: "LinkedIn" },
+    { icon: <Github className="w-5 h-5" />, url: "https://github.com/fakhrulyoi", label: "GitHub" },
+    { icon: <Linkedin className="w-5 h-5" />, url: "https://www.linkedin.com/in/fakhrullah-ibrahim-830462265/", label: "LinkedIn" },
     { icon: <Twitter className="w-5 h-5" />, url: "https://twitter.com", label: "Twitter" }
   ];
 
