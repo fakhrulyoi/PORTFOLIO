@@ -8,7 +8,16 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./src/main.tsx"></script>
+    <script import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.tsx';
+import './index.css';
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);</script>
 
   </body>
 </html>
