@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
       description: "Multiple AI-powered solutions including YPAS organizational chatbot, Mobile Legends strategy agent, conversational calculator, and MyHotel recommendation system. Built using Dify AI platform with intelligent conversation flows and real-time responses.",
       image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["Dify AI", "Chatbot Development", "AI Agents", "Conversation Flow", "API Integration"],
-      liveUrl: "#",
+      liveUrl: "https://www.ypas.edu.my/",
       githubUrl: "#",
       awards: []
     },
