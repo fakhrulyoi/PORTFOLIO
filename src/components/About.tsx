@@ -6,7 +6,7 @@ const About: React.FC = () => {
     {
       icon: <Code className="w-6 h-6" />,
       title: "Full-Stack Development",
-      description: "Experienced in HTML, CSS, JavaScript, PHP, Python and MySQL databases"
+      description: "Experienced in HTML, CSS, JavaScript, PHP, Python, Flask, Node.js, HeidiSQL, and MySQL databases"
     },
     {
       icon: <Palette className="w-6 h-6" />,
@@ -31,7 +31,7 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              I'm a final-year Computer Science student from UiTM Kuala Terengganu with strong 
+              I'm a Computer Science student from UiTM Kuala Terengganu with strong 
               hands-on experience in full-stack web development, backend systems, and data analysis. 
               My journey has taken me through machine learning projects, system optimization, 
               and building comprehensive product management platforms.
